@@ -1,0 +1,14 @@
+
+> ai-mern-stack-job-application-portal@0.1.0 dev
+> next dev --hostname 127.0.0.1 --port 3003
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://127.0.0.1:3003
+- Network:       http://127.0.0.1:3003
+✓ Ready in 2.4s
+Creating turbopack project {
+  dir: 'G:\\PROJECTS_courses\\PROJECT_FOLDER\\MERN-job-application\\ai-mern-stack-job-application-portal',
+  testMode: true
+}
+
+ GET / 200 in 3.1s (next.js: 2.2s, application-code: 916ms)
