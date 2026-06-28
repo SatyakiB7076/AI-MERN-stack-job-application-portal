@@ -16,13 +16,13 @@ export function Hero() {
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/login"
-              className="rounded-md bg-overlay px-6 py-3 text-sm font-medium leading-5 text-accent-foreground transition-colors hover:bg-overlay-dark"
+              className="rounded-md bg-overlay px-6 py-3 text-sm font-medium leading-5 text-accent-foreground transition-all hover:-translate-y-0.5 hover:bg-overlay-dark hover:shadow-card active:translate-y-0"
             >
               Get Started &gt;
             </Link>
             <Link
               href="/find-jobs"
-              className="rounded-md border border-border bg-surface px-6 py-3 text-sm font-medium leading-5 text-text-primary transition-colors hover:bg-surface-secondary"
+              className="rounded-md border border-border bg-surface px-6 py-3 text-sm font-medium leading-5 text-text-primary transition-all hover:-translate-y-0.5 hover:border-accent hover:bg-surface-secondary hover:shadow-card active:translate-y-0"
             >
               Find Your First Match
             </Link>

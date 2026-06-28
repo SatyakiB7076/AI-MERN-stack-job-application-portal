@@ -31,7 +31,7 @@ Last updated: 2026-06-27
 | Text - primary   | `text-text-dark`                                      |
 | Text - secondary | none                                                  |
 | Spacing          | `h-16`, `px-6`, `gap-9`                               |
-| Hover state      | `hover:text-accent`, `hover:bg-overlay-dark`          |
+| Hover state      | `hover:text-accent`, `hover:-translate-y-0.5`, `hover:bg-overlay-dark`, `hover:shadow-card`, `active:translate-y-0` |
 | Shadow           | none                                                  |
 | Accent usage     | `bg-overlay`, `text-accent-foreground`, `text-accent` |
 
@@ -71,7 +71,7 @@ Last updated: 2026-06-27
 | Text - primary   | `text-text-slate`                                     |
 | Text - secondary | `text-text-secondary`                                 |
 | Spacing          | `px-6 pt-16`, `py-16`, `md:py-20`, `py-14`            |
-| Hover state      | `hover:bg-overlay-dark`, `hover:bg-surface-secondary` |
+| Hover state      | `hover:-translate-y-0.5`, `hover:bg-overlay-dark`, `hover:bg-surface-secondary`, `hover:border-accent`, `hover:shadow-card`, `active:translate-y-0` |
 | Shadow           | image asset includes its own preview shadow           |
 | Accent usage     | `bg-overlay`, `text-accent-foreground`                |
 
@@ -131,7 +131,7 @@ Last updated: 2026-06-27
 | Text - primary   | `text-text-slate`                                     |
 | Text - secondary | `text-text-secondary`                                 |
 | Spacing          | `px-6 py-20`, `md:py-24`, `gap-4`                     |
-| Hover state      | `hover:bg-overlay-dark`, `hover:bg-surface-secondary` |
+| Hover state      | `hover:-translate-y-0.5`, `hover:bg-overlay-dark`, `hover:bg-surface-secondary`, `hover:border-accent`, `hover:shadow-card`, `active:translate-y-0` |
 | Shadow           | none                                                  |
 | Accent usage     | `bg-overlay`, `text-accent-foreground`                |
 
